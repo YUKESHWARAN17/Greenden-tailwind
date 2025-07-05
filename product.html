@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greenden</title>
+
+    <!--Tailwind css CDN link-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+</head>
+
+<body>
+
+    <nav class=" bg-green-200 p-3 flex items-center justify-between shadow-xl sticky top-0 z-10 mb-5">
+        <h1 class="text-2xl">Greenden</h1>
+
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+            class="w-6 h-6 md:hidden">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+
+
+
+        <ul class="flex gap-5 text-gray-600 hidden md:flex">
+            <li>
+                <a class="hover:underline hover:text-black" href="index.html">Home</a>
+            </li>
+
+            <li>
+                <a class="hover:underline hover:text-black" href="product.html">Products</a>
+            </li>
+
+            <li>
+                <a class="hover:underline hover:text-black" href="contact.html">Contact</a>
+            </li>
+    </nav>
+
+    <!--Search bar-->
+    <section class="text-center">
+
+        <h1 class="text-2xl font-bold ">Our Products</h1>
+        
+        <input type="text" placeholder="Search for a Product..."  class="border border-black rounded-2xl p-2 m-3" style="width: 80%;">
+        
+    </section>
+
+    <!--Products list-->
+
+    <section class="p-4 text-center">
+        <div class="grid grid-cols-2 md:grid-cols-4 mt-5 gap-5 p-50">
+            <div>
+                <img src="./images/productimg_1.png" alt="picture" class="inline hover:shadow-xl transform hover:-translate-y-2 border border-black p-1 rounded-2xl">
+                <h1>Jasmine pot</h1>
+                <p>$100</p>
+            </div>
+
+            <div>
+                <img src="./images/productimg_2.png" alt="picture" class="inline hover:shadow-xl transform hover:-translate-y-2 border border-black p-1 rounded-2xl">
+                <h1>Lilly pot</h1>
+                <p>$150</p>
+            </div>
+
+            <div>
+                <img src="./images/productimg_3.png" alt="picture" class="inline hover:shadow-xl transform hover:-translate-y-2 border border-black p-1 rounded-2xl">
+                <h1>Sunflower pot</h1>
+                <p>$80</p>
+            </div>
+
+            <div>
+                <img src="./images/productimg_4.png" alt="picture" class="inline hover:shadow-xl transform hover:-translate-y-2 border border-black p-1 rounded-2xl">
+                <h1>Rose pot</h1>
+                <p>$90</p>
+            </div>
+
+            <div>
+                <img src="./images/productimg_5.png" alt="picture" class="inline hover:shadow-xl transform hover:-translate-y-2 border border-black p-1 rounded-2xl">
+                <h1>Showcase plant pot</h1>
+                <p>$199</p>
+            </div>
+
+            <div>
+                <img src="./images/productimg_6.png" alt="picture" class="inline hover:shadow-xl transform hover:-translate-y-2 border border-black p-1 rounded-2xl">
+                <h1>Lotus pot</h1>
+                <p>$99</p>
+            </div>
+
+            <div>
+                <img src="./images/productimg_7.png" alt="picture" class="inline hover:shadow-xl transform hover:-translate-y-2 border border-black p-1 rounded-2xl">
+                <h1>Flower pot</h1>
+                <p>$89</p>
+            </div>
+
+            <div>
+                <img src="./images/productimg_8.png" alt="picture" class="inline hover:shadow-xl transform hover:-translate-y-2 border border-black p-1 rounded-2xl">
+                <h1>Hibiscus pot</h1>
+                <p>$75</p>
+            </div>
+        </div>
+    </section>
+
+    <!--Footer-->
+    <section class="bg-green-200 p-10 flex flex-col gap-5">
+        <h1 class="text-4xl font-bold">Greenden</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto nam autem nisi doloribus. Unde totam quaerat officiis repellendus. Pariatur architecto praesentium odio nobis exercitationem error ratione id autem doloribus est.</p>
+        <p>&copy Greenden</p>
+    </section>
+</body>
+
+</html>
