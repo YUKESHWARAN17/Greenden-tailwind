@@ -1,4 +1,5 @@
 🌿 Greenden Website
+
 Welcome to Greenden, a simple and clean website built entirely using HTML and Tailwind CSS. This project demonstrates how to build a beautiful, responsive landing page for a gardening, plants, or eco-friendly brand without using any JavaScript frameworks.
 
 📌 Project Overview
